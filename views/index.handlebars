@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Send mail</title>
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <form action="/" method="post">
+                <input type='hidden', name='_csrf', value="{{token}}" />
+                <input name="to" type="text" placeholder="Letter to: " />
+                <textarea name="letter" rows="23" columns="120" placeholder="Write your letter here..." ></textarea>
+                <button type="submit">
+                    <img src="send4.png"/>
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

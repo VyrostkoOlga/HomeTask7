@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+}
+
+.counter-wrapper {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: burlywood;
+}
+
+table {
+    border: 1px solid brown;
+}
+
+thead {
+    background-color: chocolate;
+}
+
+td {
+    border: 1px solid brown;
+    padding-left: 10px;
+    padding-right: 10px;
+}

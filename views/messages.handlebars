@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Messages for {{name}}</title>
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" type="text/css" href="messages.css" />
+    </head>
+    <body>
+        <div class="messages-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="to-col">Кому</th>
+                        <th>Текст письма</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each letters}}
+                    <tr>
+                        <td>{{LetterTo}}</td>
+                        <td>{{LetterText}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

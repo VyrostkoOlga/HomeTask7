@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.messages-wrapper {
+    width: 70%;
+}
+
+.messages-wrapper th {
+    background-color: chocolate;
+}
+
+.messages-wrapper tr {
+    background-color: burlywood;
+}
+
+ .messages-wrapper .to-col {
+     width: 10%;
+ }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>УрФУ: КБ-301</title>
+    <meta charset="utf-8"/>
+    <link rel=stylesheet type="text/css" href="counter.css">
+  </head>
+  <body>
+    <div class="counter-wrapper">
+        <h1>Данные счётчика</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>Page</th>
+                    <th>Количество посещений</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each counter}}
+                <tr>
+                    <td>{{Ip}}</td>
+                    <td>{{Page}}</td>
+                    <td>{{N}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+      </div>
+  </body>
+</html>
